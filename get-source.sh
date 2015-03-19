@@ -7,8 +7,8 @@
 
 
 # Set the package version and name:
-NAME=libxfce4ui
-VER=4.12.0
+NAME=libxfce4util
+VER=4.12.1
 PKG=$NAME-$VER.tar.bz2
 
 
