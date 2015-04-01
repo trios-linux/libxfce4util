@@ -8,7 +8,7 @@ libxfce4util (4.12.1-trios2) mia; urgency=low
     - [ Yves-Alexis Perez ]
     - debian/libxfce4util7.symbols updated for new soname.
 
- -- Filip Danilovic <filip@openmailbox.org>  Sun, 01 Mar 2015 19:16:56 +0100
+ -- Filip Danilovic <filip@openmailbox.org>  Thu, 01 Apr 2015 01:16:56 +0100
 
 libxfce4util (4.12.1-trios1) mia; urgency=low
 

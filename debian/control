@@ -12,16 +12,14 @@ Vcs-Browser: http://anonscm.debian.org/viewvc/pkg-xfce/desktop/trunk/libxfce4uti
 Package: libxfce4util-dev
 Architecture: any
 Section: libdevel
-Depends: libxfce4util6 (= ${binary:Version}), ${misc:Depends}, libglib2.0-dev
+Depends: libxfce4util7 (= ${binary:Version}), ${misc:Depends}, libglib2.0-dev
 Suggests: devhelp
-Breaks: libxfce4util6-dev
-Replaces: libxfce4util6-dev
-Description: Development files for libxfce4util6
- This package contains the headers for libxfce4util6. If you intend to code
+Description: Development files for libxfce4util7
+ This package contains the headers for libxfce4util7. If you intend to code
  applications for the Xfce4 desktop environment, you need to install this
  package.
  .
- The libxfce4util6 Reference Manual is also included and
+ The libxfce4util7 Reference Manual is also included and
  it can be consulted using Devhelp or a web browser.
 
 Package: libxfce4util7
@@ -30,7 +28,7 @@ Pre-Depends: ${misc:Pre-Depends}
 Depends: ${shlibs:Depends}, ${misc:Depends}, libxfce4util-common
 Recommends: libxfce4util-bin
 Description: Utility functions library for Xfce4
- This package contains libxfce4util6, the basic utility
+ This package contains libxfce4util7, the basic utility
  function library for Xfce4. If you intend to run Xfce4,
  you need this library.
 
@@ -38,9 +36,9 @@ Package: libxfce4util7-dbg
 Section: debug
 Architecture: any
 Priority: extra
-Depends: ${shlibs:Depends}, ${misc:Depends}, libxfce4util6 (= ${binary:Version})
-Description: debugging information for libxfce4util6
- This package contains debugging symbols for libxfce4util6, the basic
+Depends: ${shlibs:Depends}, ${misc:Depends}, libxfce4util7 (= ${binary:Version})
+Description: debugging information for libxfce4util7
+ This package contains debugging symbols for libxfce4util7, the basic
  utility function library for Xfce4.
 
 Package: libxfce4util-bin
