@@ -1,4 +1,4 @@
-libxfce4util.so.6 libxfce4util6 #MINVER#
+libxfce4util.so.7 libxfce4util7 #MINVER#
  libxfce4util_major_version@Base 4.9.0
  libxfce4util_micro_version@Base 4.9.0
  libxfce4util_minor_version@Base 4.9.0
@@ -23,7 +23,7 @@ libxfce4util.so.6 libxfce4util6 #MINVER#
  xfce_posix_signal_handler_restore_handler@Base 4.9.0
  xfce_posix_signal_handler_set_handler@Base 4.9.0
  xfce_posix_signal_handler_shutdown@Base 4.9.0
- xfce_putenv@Base 4.9.0
+#MISSING: 4.11.0# xfce_putenv@Base 4.9.0
  xfce_rc_close@Base 4.9.0
  xfce_rc_config_open@Base 4.9.0
  xfce_rc_delete_entry@Base 4.9.0
@@ -57,10 +57,10 @@ libxfce4util.so.6 libxfce4util6 #MINVER#
  xfce_resource_pop_path@Base 4.9.0
  xfce_resource_push_path@Base 4.9.0
  xfce_resource_save_location@Base 4.9.0
- xfce_setenv@Base 4.9.0
- xfce_strjoin@Base 4.9.0
+#MISSING: 4.11.0# xfce_setenv@Base 4.9.0
+#MISSING: 4.11.0# xfce_strjoin@Base 4.9.0
  xfce_textdomain@Base 4.9.0
- xfce_unsetenv@Base 4.9.0
+#MISSING: 4.11.0# xfce_unsetenv@Base 4.9.0
  xfce_utf8_remove_controls@Base 4.9.0
  xfce_utf8_strndup@Base 4.9.0
  xfce_version_string@Base 4.9.0
